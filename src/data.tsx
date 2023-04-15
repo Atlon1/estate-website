@@ -54,7 +54,29 @@ import Agent10 from '../../estate-web/src/assets/img/agents/agent10.png';
 import Agent11 from '../../estate-web/src/assets/img/agents/agent11.png';
 import Agent12 from '../../estate-web/src/assets/img/agents/agent12.png';
 
-export const housesData = [
+interface  List {
+    id: number
+    type: string
+    name: string
+    description: string
+    image: string
+    imageLg: string
+    country: string
+    address: string
+    bedrooms: string
+    bathrooms: string
+    surface: string
+    year: string
+    price: string
+    agent: {
+        image: string
+        name: string
+        phone: string
+    },
+
+}
+
+export const housesData: List[] = [
     {
         id: 1,
         type: 'House',
