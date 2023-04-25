@@ -8,7 +8,6 @@ import {HouseContext} from "./HauseContext";
 
 const CountryDropdown = () => {
     const {country, setCountry, countries} = useContext(HouseContext) as any
-    console.log(countries)
 
     const [isOpen, setIsOpen] = useState(false) as any
 

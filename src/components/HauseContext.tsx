@@ -13,6 +13,7 @@ const HouseContextProvider = ({children} : any) => {
     const [properties, setProperties] = useState([])
     const [price, setPrice] = useState('Price range (any)')
     const [loading, setLoadinf] = useState(false)
+
     useEffect(() => {
         const allCountries = houses.map((house) => {
             return house.country
@@ -23,6 +24,19 @@ const HouseContextProvider = ({children} : any) => {
 
         setCountries(uniqueCountries)
     },[])
+
+    useEffect(() => {
+        const allProperties = houses.map((house) => {
+            return house.type
+        })
+
+        // @ts-ignore
+        const uniqueProperties =['Location (any)', ...new Set(allProperties)] as any
+
+        setProperties(uniqueProperties)
+    },[])
+
+
 
     return (
         <HouseContext.Provider value={{
