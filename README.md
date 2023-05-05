@@ -1,22 +1,20 @@
-# cra-template-tailwindcss-typescript
+#First e-state shop.
+The first store, A page where you will find the opportunity to buy an apartment / house. With an advanced search module by specified criteria.
 
-A streamlined [Tailwind CSS v3.1](https://tailwindcss.com) template for [Create React App](https://github.com/facebook/create-react-app) in [TypeScript](https://www.typescriptlang.org/).
+#Features
+- Responsive design
+- Props validations
+- React Scroll
+- Animations
+- Advanced filter bar
 
-> This template installs and sets up [Tailwind CSS](https://tailwindcss.com) with TypeScript support.
 
-## Usage
-
-```bash
-npx create-react-app --template tailwindcss-typescript
-```
-
-## Credits
-
-This project was made possible thanks to the following projects.
-
-1. [GeoffSelby/cra-template-tailwindcss](https://github.com/GeoffSelby/cra-template-tailwindcss) - A streamlined Tailwind CSS template for Create React App (in JavaScript).
-2. [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - An official TypeScript template for create-react-app.
-
-## License
-
-MIT © [Sung M. Kim](https://sung.codes)
+#Technologies
+- Tailwind css
+- RWD
+- Typescript
+- Fetch: GET, POST
+- React: react-router
+- Context API
+- UseParams
+- Used big data-base.
