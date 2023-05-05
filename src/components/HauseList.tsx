@@ -25,7 +25,7 @@ const HauseList = () => {
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-14'>
                     {houses.map((house : any, index: number)=> {
                         return (
-                            <Link to={`/property/${house.id}`} key={index}>
+                            <Link to={`/estate-website/property/${house.id}`} key={index}>
                                 <Haouse house={house}/>
                             </Link>
                         )
