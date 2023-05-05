@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/estate-website/static/css/main.c9b27800.css",
-    "main.js": "/estate-website/static/js/main.8439896a.js",
+    "main.js": "/estate-website/static/js/main.e08c416a.js",
     "static/media/house12lg.png": "/estate-website/static/media/house12lg.ac9d7673a85220c54330.png",
     "static/media/house10lg.png": "/estate-website/static/media/house10lg.7cdefca31329de5e3f8a.png",
     "static/media/house11lg.png": "/estate-website/static/media/house11lg.a88bde8ff3603b502d7d.png",
@@ -55,10 +55,10 @@
     "static/media/logo.svg": "/estate-website/static/media/logo.88314d080943306fb3247ed933bcc867.svg",
     "index.html": "/estate-website/index.html",
     "main.c9b27800.css.map": "/estate-website/static/css/main.c9b27800.css.map",
-    "main.8439896a.js.map": "/estate-website/static/js/main.8439896a.js.map"
+    "main.e08c416a.js.map": "/estate-website/static/js/main.e08c416a.js.map"
   },
   "entrypoints": [
     "static/css/main.c9b27800.css",
-    "static/js/main.8439896a.js"
+    "static/js/main.e08c416a.js"
   ]
 }
